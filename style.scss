@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+$blackColor:black;
+$whitColor:white;
+$lightGray:rgb(155, 155, 155);
+$fontSize:20px;
+nav{
+ 
+    &:hover{
+        background-color: black !important;
+      opacity: 1 !important;
+    }
+    li{
+        
+        &:hover{
+            background-color: $lightGray ;
+        }
+
+    }
+}
+
+
+
+.imagepart{
+    
+   position: relative;
+   top: -80px !important;
+    background-image: url("	https://www.w3schools.com/w3images/pizza.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 650px;
+    width: 100%;
+    filter: grayscale(50%);
+    // display: flex;
+    // justify-content: center;
+
+    .homeContent{
+        // position: absolute;
+        //   top: 40%;
+        //   left: 35%;
+          color: $whitColor;
+          text-align: center;
+          h1{
+            font-size: $fontSize +40 !important;
+          }
+          button{
+            &:hover{
+                background-color: $lightGray !important;
+                color: $blackColor !important;
+            }
+          }
+       
+         
+       
+    }
+    p{
+        position: absolute;
+        bottom: 0 !important;
+    }
+
+}
+// menu part
+.menuPart{
+    margin-top: -100px !important; 
+    padding-top: 10%;
+    button{
+        &:hover{
+            background-color: rgb(201, 43, 43) !important;
+        }
+    }
+}
+// the about section
+.aboutSection{
+   margin-top: -10px !important;
+   background-color: #61303e  !important;
+   color: $whitColor;
+   padding-top: 5% !important;
+   line-height: 1.5 !important;
+   font-size: $fontSize - 3 !important;
+   .aboutContent{
+    width: 90%;
+    margin: auto;
+    h2{
+
+        margin-bottom:2%;
+        font-size: $fontSize + 20 !important;
+       }
+       p{
+   
+         font-size: $fontSize - 3 !important;
+       }
+   }
+  
+.lastimage{
+    filter: grayscale(40%);
+}
+  
+   
+}
+
+// contact sebtion
+.contactSection{
+    margin-top: -10px !important;
+   background-color: #607d8b !important;
+   color: $whitColor !important;
+
+   .contactCntent{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+    h1{
+        margin-bottom: 4% !important;
+    }
+    p{
+        margin-bottom: 2% !important;
+    }
+    form{
+        input{
+            height: 70px !important;
+        }
+        button{
+            width: 100%;
+            height: 70px;
+            background-color: $whitColor;
+            color: $blackColor;
+            &:hover{
+                background-color: $lightGray;
+            }
+        }
+    }
+    
+   }
+}

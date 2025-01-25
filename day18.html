@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    
+    <nav id="navbar-example2" class="navbar text-bg-dark opacity-75 px-3 mb-0  sticky-md-top d-none d-md-block fs-5">
+      
+        <ul class="nav">
+          <li class="nav-item ">
+            <a class="nav-link text-light " href="#scrollspyHeading1">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#scrollspyHeading2">menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#scrollspyHeading3">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#scrollspyHeading4">contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu"> -->
+              <!-- <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li> -->
+        <!-- </ul> -->
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary  rounded-2" tabindex="0">
+       
+       <!-- first part -->
+        <h4 id="scrollspyHeading1">
+            
+<div class="container-fluid p-0 ">
+
+
+    
+    <div class="imagepart p-0 m-0 d-flex align-items-center">
+       <div class="homeContent w-100">
+
+        <h1 class="mb-5 ">
+            thin
+            <br>
+        CRUST PIZZA
+        </h1>
+        <button class="btn btn-light btn-dark pt-2 pb-2 fs-2 border-0 ">let me see the menu</button>
+         
+        
+    
+
+       </div>
+
+       <p class="text-bg-dark pt-2 pb-2">Open from 10am to 12pm</p>
+    </div>
+</div>
+           
+        </h4>
+        <!-- second part -->
+    
+        <h4 id="scrollspyHeading2">
+      
+         <div class="menuPart text-center text-bg-dark">
+
+
+          <h1 class="text-center">the menu</h1>
+
+        <div class="container mt-5 pb-5">
+          <div class="container-fluid">
+            <div class="row"  role="tablist">
+              <div class="col p-0" role="presentation" >
+                <button   data-bs-toggle="tab" data-bs-target="#pizza"  role="tab" aria-controls="pizza" aria-selected="true" class=" w-100 bg-transparent text-light " style="height: 60px;">Pizza</button>
+              </div>
+              <div class="col p-0" role="presentation">
+                <button  data-bs-toggle="tab" data-bs-target="#salads" type="button" role="tab" aria-controls="salads" aria-selected="false" class="  w-100 bg-transparent text-light" style="height: 60px;">Salads</button>
+              </div>
+              <div class="col p-0" role="presentation">
+                <button   data-bs-toggle="tab" data-bs-target="#starter" type="button" role="tab" aria-controls="starter" aria-selected="false" class=" w-100 bg-transparent text-light" style="height: 60px;">Starter</button>
+              </div>
+            </div>
+          </div>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
+             
+                <ul class="list-group">
+            
+                  <li class="list-group-item">
+
+
+                    <div class="d-flex justify-content-between text-start">
+                      
+                      <div>
+                        <p>Margherita</p>
+                      <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                      <div ><p class="text-bg-dark">145$</p></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+
+                    <div class="d-flex justify-content-between text-start">
+                      
+                      <div>
+                        <p>Margherita</p>
+                      <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                      <div ><p class="text-bg-dark">145$</p></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">  <div class="d-flex justify-content-between text-start">
+                      
+                    <div>
+                      <p>Margherita</p>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  </div>
+                    <div ><p class="text-bg-dark">145$</p></div>
+                  </div></li>
+                  <li class="list-group-item">  <div class="d-flex justify-content-between text-start">
+                      
+                    <div>
+                      <p>Margherita</p>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  </div>
+                    <div ><p class="text-bg-dark">145$</p></div>
+                  </div></li>
+                </ul>
+              </div>
+
+              <!-- the salad list -->
+              <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
+             
+                <ul class="list-group">
+            
+                  <li class="list-group-item">
+
+
+                    <div class="d-flex justify-content-between text-start">
+                      
+                      <div>
+                        <p>salads</p>
+                      <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                      <div ><p class="text-bg-dark">145$</p></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+
+                    <div class="d-flex justify-content-between text-start">
+                      
+                      <div>
+                        <p>salads</p>
+                      <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                      <div ><p class="text-bg-dark">145$</p></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">  <div class="d-flex justify-content-between text-start">
+                      
+                    <div>
+                      <p>salads</p>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  </div>
+                    <div ><p class="text-bg-dark">145$</p></div>
+                  </div></li>
+                  <li class="list-group-item">  <div class="d-flex justify-content-between text-start">
+                      
+                    <div>
+                      <p>salads</p>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  </div>
+                    <div ><p class="text-bg-dark">145$</p></div>
+                  </div></li>
+                </ul>
+              </div>
+
+
+              <!-- the starter list -->
+              <div class="tab-pane fade" id="starter" role="tabpanel" aria-labelledby="starter-tab">
+             
+                <ul class="list-group">
+            
+                  <li class="list-group-item">
+
+
+                    <div class="d-flex justify-content-between text-start">
+                      
+                      <div>
+                        <p>starter</p>
+                      <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                      <div ><p class="text-bg-dark">145$</p></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+
+                    <div class="d-flex justify-content-between text-start">
+                      
+                      <div>
+                        <p>starter</p>
+                      <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                      <div ><p class="text-bg-dark">145$</p></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">  <div class="d-flex justify-content-between text-start">
+                      
+                    <div>
+                      <p>starter</p>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  </div>
+                    <div ><p class="text-bg-dark">145$</p></div>
+                  </div></li>
+                  <li class="list-group-item">  <div class="d-flex justify-content-between text-start">
+                      
+                    <div>
+                      <p>starter</p>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  </div>
+                    <div ><p class="text-bg-dark">145$</p></div>
+                  </div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         </div>
+      
+        </h4>
+        <!-- part three -->
+      
+        <h4 id="scrollspyHeading3">
+          
+            <div class="aboutSection  ">
+                  <div class="aboutContent">
+                    <h2 class="text-center">about</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatum tempore tenetur atque sint, saepe recusandae ipsum fuga. Recusandae magnam, perspiciatis ad blanditiis minus assumenda corporis error quae voluptate expedita!</p>
+                <br>
+              
+                <div class="d-flex justify-content-between  m-auto pb-5" >
+                  
+                  <div>
+                    
+                    The Chef? Mr. Italiano himself
+                    <br>
+                    <br>
+                    <br>
+                    
+                    The Chef? Mr. Italiano himself
+                  </div>
+                  <div class="w-25">
+                    <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" class="w-75 img-fluid rounded-circle">
+                  </div>
+                </div>
+                <img src="https://www.w3schools.com/w3images/onepage_restaurant.jpg" alt="" class="img-fluid w-100">
+                <h3 class="mt-5 pb-5">Opening Hours</h3>
+                <div class="row pb-5">
+                  <div class="col-6">
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Mon & Tue CLOSED</p>
+                  </div>
+                  <div class="col-6">
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Mon & Tue CLOSED</p>
+                  </div>
+                </div>
+                  </div>
+         <img src="https://www.w3schools.com/w3images/map.jpg" alt="" class="img-fluid w-100 lastimage">
+        </div>
+
+
+        </h4>
+         <!-- part four -->
+      
+        <h4 id="scrollspyHeading4">
+          <div class="contactSection">
+                <div class="contactCntent">
+                  <h1 class="text-center text-light pt-5">Contact</h1>
+                  <p>Find us at some address at some place or call us at 05050515-122330</p>
+                  <p>FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+              
+              
+              <p>Reserve a table, ask for today's special or just send us a message:</p>
+              <!-- the form  -->
+
+              <form>
+                <div class="mb-3">
+              
+                  <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="name">
+             
+                </div>
+                <div class="mb-3">
+              
+                  <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="how many people">
+             
+                </div>
+               
+                <div class="mb-3">
+              
+                  <input type="date" class="form-control"  aria-describedby="emailHelp" placeholder="11/16/2020 17 pm">
+             
+                </div>
+                <div class="mb-3">
+              
+                  <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="message /special requirment">
+             
+                </div>
+            
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+                </div>
+         
+          </div>
+        
+        </h4>
+        
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
